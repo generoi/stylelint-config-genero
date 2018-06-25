@@ -33,6 +33,8 @@ module.exports = {
       }
     ],
     "at-rule-name-space-after": "always",
+    "at-rule-no-unknown": null,
+    "scss/at-rule-no-unknown": true,
     "scss/at-else-closing-brace-newline-after": "always-last-in-chain",
     "scss/at-else-closing-brace-space-after": "always-intermediate",
     "scss/at-else-empty-line-before": "never",
