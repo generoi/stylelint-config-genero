@@ -1,0 +1,35 @@
+{
+  "name": "stylelint-config-genero",
+  "description": "SASS Style - Genero",
+  "version": "0.0.1",
+  "author": "Oskar Schöldström",
+  "bugs": {
+    "url": "https://github.com/generoi/stylelint-config-genero/issues"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "peerDependencies": {
+    "stylelint": "^9.0.0"
+  },
+  "scripts": {
+    "test": "eslint ."
+  },
+  "eslintConfig": {
+    "root": true,
+    "extends": "eslint:recommended",
+    "env": {
+      "node": true
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/genero/stylelint-config-genero.git"
+  },
+  "dependencies": {
+    "stylelint-config-standard": "^18.2.0",
+    "stylelint-scss": "^3.1.3"
+  },
+  "devDependencies": {
+    "eslint": "^5.0.0"
+  }
+}
